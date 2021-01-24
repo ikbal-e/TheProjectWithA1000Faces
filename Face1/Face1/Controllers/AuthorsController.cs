@@ -1,4 +1,5 @@
-﻿using Face1.Entities;
+﻿using Face1.Context;
+using Face1.Entities;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System;
@@ -6,7 +7,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Face1.Context
+namespace Face1.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
